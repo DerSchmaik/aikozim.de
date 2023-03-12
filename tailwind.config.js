@@ -9,7 +9,19 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    container: {
+      padding: {
+        DEFAULT: '1rem',
+      },
+    },
+    extend: {
+      aspectRatio: {
+        'card': '21 / 9',
+      },
+      backgroundImage: {
+        'gradient': "url('/images/background-gradient.svg')",
+      }
+    }
   },
   plugins: [],
 }

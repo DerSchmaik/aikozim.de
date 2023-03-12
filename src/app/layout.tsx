@@ -12,7 +12,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className='bg-gradient bg-cover bg-[#ddf0f8]'>{children}</body>
     </html>
   )
 }
